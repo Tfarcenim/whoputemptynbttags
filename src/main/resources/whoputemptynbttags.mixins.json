@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.whoputemptynbttags.mixin",
   "compatibilityLevel": "JAVA_16",
   "refmap": "examplemod.refmap.json",
   "mixins": [
+    "ExampleMixin"
   ],
   "client":[
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
